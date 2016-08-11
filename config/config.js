@@ -24,7 +24,7 @@ var config = {
     app: {
       name: 'simple-node'
     },
-    port: process.env.PORT,
+    port: process.env.PORT || 80,
   }
 };
 
