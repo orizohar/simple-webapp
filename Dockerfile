@@ -1,4 +1,4 @@
-FROM node:boron
+FROM node:alpine
 
 # Add package.json first to avoid running npm install on every change to work dir
 ADD package.json /tmp/package.json
