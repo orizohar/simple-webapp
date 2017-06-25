@@ -3,6 +3,8 @@ body {
   font: 22px "Segoe UI Light",sans-serif;
   align-content: center;
   text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 a {
